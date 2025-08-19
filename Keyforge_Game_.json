@@ -53,19 +53,19 @@
       "tokens": [
         {
           "name": "Key Red",
-          "image": "\"https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyR.png\"",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyR.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
         },
         {
           "name": "Key Blue",
-          "image": "\"https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyB.png\"",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyB.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
         },
         {
           "name": "Key Yellow",
-          "image": "\"https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyY.png\"",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyY.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
         }
@@ -120,7 +120,7 @@
           "Creature": "Battleline",
           "Action": "Stack",
           "Upgrade": "Stack",
-          "Artifact": "Artifacts",
+          "Artifact": "Artifact",
           "TokenCreature": "Battleline"
         },
         "autoPlayFromStack": {
@@ -265,11 +265,10 @@
           },
           "Archive": {
             "title": "Archive",
-            "isHidden": "opponent-only",
-            "height": "SMALL",
+            "isHidden": "yes",
+            "height": "MEDIUM",
             "alignment": "DECK",
-            "displayedTitle": "Archive",
-            "enterSpun": true
+            "displayedTitle": "Archive"
           },
           "Artifacts": {
             "title": "Artifacts",

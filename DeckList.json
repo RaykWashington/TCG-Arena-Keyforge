@@ -1,0 +1,107 @@
+[
+{
+  "title": "Dirk, o Retraído, Monge da Inteligência",
+  "id": "55a12023-7bf6-4670-8f89-4991362f5f72",
+  "game": "Keyforge",
+  "format": [
+    "Standard"
+  ],
+  "cardCount": null,
+  "createdAt": "2025-08-19T04:41:32.587Z",
+  "lastModifiedAt": "2025-08-19T04:51:13.620Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Action",
+      "Creature",
+      "Artifact"
+    ],
+    "Sideboard": [],
+    "Action": [
+      {
+        "count": null,
+        "id": 737
+      },
+      {
+        "count": null,
+        "id": 987
+      },
+      {
+        "count": null,
+        "id": 642
+      },
+      {
+        "count": null,
+        "id": 929
+      },
+      {
+        "count": null,
+        "id": 807
+      },
+      {
+        "count": null,
+        "id": 14
+      },
+      {
+        "count": null,
+        "id": 449
+      },
+      {
+        "count": null,
+        "id": 245
+      },
+      {
+        "count": null,
+        "id": 167
+      },
+      {
+        "count": null,
+        "id": 909
+      },
+      {
+        "count": null,
+        "id": 698
+      }
+    ],
+    "Creature": [
+      {
+        "count": null,
+        "id": 20
+      },
+      {
+        "count": null,
+        "id": 1062
+      },
+      {
+        "count": null,
+        "id": 90
+      },
+      {
+        "count": null,
+        "id": 313
+      },
+      {
+        "count": null,
+        "id": 968
+      },
+      {
+        "count": null,
+        "id": 504
+      }
+    ],
+    "Artifact": [
+      {
+        "count": null,
+        "id": 866
+      },
+      {
+        "count": null,
+        "id": 88
+      },
+      {
+        "count": null,
+        "id": 70
+      }
+    ]
+  }
+}
+]

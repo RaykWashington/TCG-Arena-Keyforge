@@ -6,7 +6,7 @@
   "format": [
     "Standard"
   ],
-  "cardCount": null,
+  "cardCount": 36,
   "createdAt": "2025-08-19T04:41:32.587Z",
   "lastModifiedAt": "2025-08-19T04:51:13.620Z",
   "deckList": {
@@ -18,87 +18,87 @@
     "Sideboard": [],
     "Action": [
       {
-        "count": null,
+        "count": 1,
         "id": 737
       },
       {
-        "count": null,
+        "count": 1,
         "id": 987
       },
       {
-        "count": null,
+        "count": 1,
         "id": 642
       },
       {
-        "count": null,
+        "count": 1,
         "id": 929
       },
       {
-        "count": null,
+        "count": 1,
         "id": 807
       },
       {
-        "count": null,
+        "count": 1,
         "id": 14
       },
       {
-        "count": null,
+        "count": 1,
         "id": 449
       },
       {
-        "count": null,
+        "count": 1,
         "id": 245
       },
       {
-        "count": null,
+        "count": 1,
         "id": 167
       },
       {
-        "count": null,
+        "count": 1,
         "id": 909
       },
       {
-        "count": null,
+        "count": 1,
         "id": 698
       }
     ],
     "Creature": [
       {
-        "count": null,
+        "count": 1,
         "id": 20
       },
       {
-        "count": null,
+        "count": 1,
         "id": 1062
       },
       {
-        "count": null,
+        "count": 1,
         "id": 90
       },
       {
-        "count": null,
+        "count": 1,
         "id": 313
       },
       {
-        "count": null,
+        "count": 1,
         "id": 968
       },
       {
-        "count": null,
+        "count": 1,
         "id": 504
       }
     ],
     "Artifact": [
       {
-        "count": null,
+        "count": 1,
         "id": 866
       },
       {
-        "count": null,
+        "count": 1,
         "id": 88
       },
       {
-        "count": null,
+        "count": 1,
         "id": 70
       }
     ]

@@ -17,21 +17,25 @@
   },
   "deckBuilding": {
     "mainFilters": [
-      "houses",
-      "type"
+      "house",
+      "type",
+      "rarity",
+      "expansion"
     ],
     "formats": [
       {
         "title": "Standard",
-        "gameplay": "Archon",
+        "gameplay": "Standard",
         "customCategories": [
-          "houses"
+          "house 1",
+          "house 2",
+          "house 3"
         ]
       }
     ]
   },
   "gameplay": {
-    "Archon": {
+    "Standard": {
       "mulligan": {
         "info": "-1 card per mulligan",
         "startingHandSize": "6",

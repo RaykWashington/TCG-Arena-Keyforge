@@ -93,8 +93,8 @@
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
           "Creature": "Battleline",
-          "Action": "Pile",
-          "Upgrade": "Pile",
+          "Action": "Stack",
+          "Upgrade": "Stack",
           "Artifact": "Artifact",
           "TokenCreature": "Battleline"
         },

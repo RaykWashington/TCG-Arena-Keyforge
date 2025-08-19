@@ -7,7 +7,7 @@
       "https://keyforging.com/wp-content/uploads/2022/10/Starter-Set-Banner.png",
       "https://keyforging.com/wp-content/uploads/2022/10/MM-Set-Banner.png"
     ],
-    "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList_pt.json"
+    "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList.json"
   },
   "customHelp": "Use first counter for AEmber, second for forged keys",
   "cardRotation": 45,

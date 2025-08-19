@@ -9,7 +9,7 @@
     ],
     "decksUrl": ""
   },
-  "customHelp": "Use first counter for Æmber, second for forged keys",
+  "customHelp": "Use first counter for AEmber, second for forged keys",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList.json",
@@ -24,12 +24,14 @@
       {
         "title": "Standard",
         "gameplay": "Archon",
-        "customCategories": []
+        "customCategories": [
+          "houses"
+        ]
       }
     ]
   },
   "gameplay": {
-    "Classic": {
+    "Archon": {
       "mulligan": {
         "info": "-1 card per mulligan",
         "startingHandSize": "6",

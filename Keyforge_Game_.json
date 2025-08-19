@@ -267,7 +267,7 @@
             "title": "Archive",
             "isHidden": "opponent-only",
             "height": "MEDIUM",
-            "alignment": "DECK",
+            "alignment": "CENTER",
             "noQuickActions": false,
             "displayedTitle": "Archive",
             "opponentAlignment": false,

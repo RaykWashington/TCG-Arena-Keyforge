@@ -120,7 +120,7 @@
           "Creature": "Battleline",
           "Action": "Stack",
           "Upgrade": "Stack",
-          "Artifact": "Artifact",
+          "Artifact": "Artifacts",
           "TokenCreature": "Battleline"
         },
         "autoPlayFromStack": {

@@ -1,0 +1,18 @@
+map({
+id: .card_number,
+face:{
+  front:{
+    name: .card_title,
+    type: .card_type,
+    cost: 0,
+    image: .houses.0.normal
+    }
+  },
+  name: .card_title,
+  type: .card_type,
+  house: .houses.0.house,
+  cost: 0,
+  set: .set,
+  rarity: .rarity
+
+})|keyBy(string(.card_number))

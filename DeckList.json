@@ -1,107 +1,600 @@
 [
 {
   "title": "Dirk, o Retraído, Monge da Inteligência",
-  "id": "55a12023-7bf6-4670-8f89-4991362f5f72",
+  "id": "a3ea99e9-c5a8-4319-bd92-cc1d7f069d8b",
   "game": "Keyforge",
   "format": [
     "Standard"
   ],
   "cardCount": 36,
-  "createdAt": "2025-08-19T04:41:32.587Z",
-  "lastModifiedAt": "2025-08-19T04:51:13.620Z",
+  "createdAt": "2025-08-19T07:42:02.141Z",
+  "lastModifiedAt": "2025-08-19T08:15:50.526Z",
   "deckList": {
     "categoriesOrder": [
       "Action",
       "Creature",
-      "Artifact"
+      "Artifact",
+      "Upgrade"
     ],
     "Sideboard": [],
     "Action": [
       {
         "count": 1,
-        "id": 737
+        "id": "d438faa9-7920-437a-8d1c-682fade5d350"
       },
       {
         "count": 1,
-        "id": 987
+        "id": "0ec85771-8143-4d64-8c3a-ce48bce4e81c"
+      },
+      {
+        "count": 2,
+        "id": "68e2188c-4002-43d4-9fe1-0262df26c33f"
       },
       {
         "count": 1,
-        "id": 642
+        "id": "09101020-58c5-4d9f-b93b-7fb25d684ff0"
+      },
+      {
+        "count": 2,
+        "id": "27a6e4f0-4770-4ce0-89ff-8b2fd5a99f4a"
       },
       {
         "count": 1,
-        "id": 929
+        "id": "3d00f551-b0f2-4b0a-b9fc-8c03e139ab57"
       },
       {
         "count": 1,
-        "id": 807
+        "id": "0106cea7-4207-45fb-bf7d-866553ff2f23"
       },
       {
         "count": 1,
-        "id": 14
+        "id": "6132048c-1193-4363-97be-6f6240f95079"
       },
       {
         "count": 1,
-        "id": 449
+        "id": "9a319f7f-62ac-46d2-9f1b-c8846e02589f"
       },
       {
         "count": 1,
-        "id": 245
+        "id": "06511b42-0f6f-468e-9b93-54abac8d0428"
+      },
+      {
+        "count": 2,
+        "id": "9d56262e-cb2e-40d4-8b5c-a24ed3d5c231"
       },
       {
         "count": 1,
-        "id": 167
+        "id": "77f6e4e2-786c-46b2-8192-673be8117715"
       },
       {
         "count": 1,
-        "id": 909
+        "id": "ebca2d86-9a43-498a-b7cd-306f3c91c7f8"
       },
       {
         "count": 1,
-        "id": 698
+        "id": "8754c688-6d87-4372-bbec-349e4e4bdded"
+      },
+      {
+        "count": 2,
+        "id": "fc829cbd-50d4-486a-9274-77c920d1d6f1"
       }
     ],
     "Creature": [
       {
         "count": 1,
-        "id": 20
+        "id": "2ee769bb-b785-48ea-a5fa-a19a2af32bbc"
       },
       {
         "count": 1,
-        "id": 1062
+        "id": "c62cd05f-a0d1-42b7-b084-c9e32e078da0"
       },
       {
         "count": 1,
-        "id": 90
+        "id": "1116f47b-8622-42fa-b651-4a99c55cec40"
       },
       {
         "count": 1,
-        "id": 313
+        "id": "6e6098a4-a323-4fd7-9786-2553c776cf07"
       },
       {
         "count": 1,
-        "id": 968
+        "id": "5fc44836-83fd-4a10-af61-9168db728cc0"
+      },
+      {
+        "count": 2,
+        "id": "31f062a8-a25f-4d4d-99e2-746a00da200c"
       },
       {
         "count": 1,
-        "id": 504
+        "id": "a8a3578c-7a61-4e15-90ac-483daf2aff16"
+      },
+      {
+        "count": 1,
+        "id": "4839a59f-848e-4926-9243-8646687c5ef2"
+      },
+      {
+        "count": 1,
+        "id": "889c4c76-a0ec-49fb-a1f7-e09285d739c6"
+      },
+      {
+        "count": 1,
+        "id": "386c208d-a9d3-4318-bd99-54dc8cbc4197"
+      },
+      {
+        "count": 1,
+        "id": "c25f3a5d-b757-4c30-9097-01a9ad692833"
       }
     ],
     "Artifact": [
       {
         "count": 1,
-        "id": 866
+        "id": "63f67670-16fb-4381-a859-c47920a847a6"
+      },
+      {
+        "count": 2,
+        "id": "bda929e2-962a-438c-a210-47f21228dfbc"
       },
       {
         "count": 1,
-        "id": 88
+        "id": "189c881e-f5bc-4d2d-b97e-3166980aa1c9"
+      }
+    ],
+    "Upgrade": [
+      {
+        "count": 1,
+        "id": "19953e87-7a79-4172-a122-76889afbb514"
+      }
+    ]
+  }
+},
+{
+  "title": "Priscilla “Tex”, a Maldita",
+  "id": "86b6c637-2bc6-4c37-9ca9-f1e384b45499",
+  "game": "Keyforge",
+  "format": [
+    "Standard"
+  ],
+  "cardCount": 36,
+  "createdAt": "2025-08-19T08:17:02.742Z",
+  "lastModifiedAt": "2025-08-19T08:17:27.749Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Creature",
+      "Action",
+      "Artifact",
+      "Upgrade"
+    ],
+    "Sideboard": [],
+    "Creature": [
+      {
+        "count": 1,
+        "id": "417b7845-2c67-4bcf-b411-20f2a7d86955"
       },
       {
         "count": 1,
-        "id": 70
+        "id": "2ee769bb-b785-48ea-a5fa-a19a2af32bbc"
+      },
+      {
+        "count": 2,
+        "id": "c62cd05f-a0d1-42b7-b084-c9e32e078da0"
+      },
+      {
+        "count": 1,
+        "id": "31f062a8-a25f-4d4d-99e2-746a00da200c"
+      },
+      {
+        "count": 1,
+        "id": "a8a3578c-7a61-4e15-90ac-483daf2aff16"
+      },
+      {
+        "count": 1,
+        "id": "64d696b9-4a8e-45de-88d7-fffbbcfc495c"
+      },
+      {
+        "count": 1,
+        "id": "5268bb5a-5888-4ee9-abc9-bcad6983e270"
+      },
+      {
+        "count": 1,
+        "id": "e438205c-2661-4e0a-afbc-d4852b713816"
+      },
+      {
+        "count": 2,
+        "id": "ac8fb9f6-ee8e-4434-85e8-d084a66c50db"
+      },
+      {
+        "count": 1,
+        "id": "4d90ef82-2375-4583-9c2a-fdfd2f32f1a2"
+      },
+      {
+        "count": 1,
+        "id": "646a551f-b2ed-4a78-940c-84c34bfb0e3d"
+      },
+      {
+        "count": 1,
+        "id": "eeac7978-6fa5-4c6a-a62e-144692ba93d6"
+      },
+      {
+        "count": 1,
+        "id": "97fcbed9-9a94-4fe0-882f-902e7b592c2e"
+      },
+      {
+        "count": 1,
+        "id": "3d559d99-0195-426c-acbc-ffc2fab690c5"
+      }
+    ],
+    "Action": [
+      {
+        "count": 1,
+        "id": "d438faa9-7920-437a-8d1c-682fade5d350"
+      },
+      {
+        "count": 2,
+        "id": "5b337557-880c-4103-a403-fe50a4e92ddb"
+      },
+      {
+        "count": 1,
+        "id": "3d00f551-b0f2-4b0a-b9fc-8c03e139ab57"
+      },
+      {
+        "count": 1,
+        "id": "0106cea7-4207-45fb-bf7d-866553ff2f23"
+      },
+      {
+        "count": 1,
+        "id": "9a319f7f-62ac-46d2-9f1b-c8846e02589f"
+      },
+      {
+        "count": 2,
+        "id": "56252b23-94a4-46ac-a566-be6793ecbdfe"
+      },
+      {
+        "count": 1,
+        "id": "1ef96099-4703-4883-9c55-9102e829797a"
+      },
+      {
+        "count": 1,
+        "id": "1983bc1e-a6e5-4fd4-b620-5e3d691c6851"
+      },
+      {
+        "count": 2,
+        "id": "d83991e9-ffdf-4e65-9b42-7450e15ce036"
+      }
+    ],
+    "Artifact": [
+      {
+        "count": 1,
+        "id": "86db8510-2854-440b-8ee5-559855bb7d2c"
+      },
+      {
+        "count": 2,
+        "id": "3d650fe4-817a-4922-ba0f-297c1ebf816d"
+      },
+      {
+        "count": 1,
+        "id": "63f67670-16fb-4381-a859-c47920a847a6"
+      },
+      {
+        "count": 1,
+        "id": "bda929e2-962a-438c-a210-47f21228dfbc"
+      },
+      {
+        "count": 1,
+        "id": "74a2511a-7df8-4865-b125-cae3e4f0e41b"
+      }
+    ],
+    "Upgrade": [
+      {
+        "count": 1,
+        "id": "19953e87-7a79-4172-a122-76889afbb514"
+      },
+      {
+        "count": 1,
+        "id": "276a1203-4126-4f96-82c4-d621e0464aef"
+      }
+    ]
+  }
+},
+{
+  "title": "Nazar the Naturally Bucolic",
+  "id": "7e69778b-db3a-4f99-91a5-3a70e746e906",
+  "game": "Keyforge",
+  "format": [
+    "Standard"
+  ],
+  "cardCount": 36,
+  "createdAt": "2025-08-19T08:27:36.622Z",
+  "lastModifiedAt": "2025-08-19T08:27:52.534Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Action",
+      "Artifact",
+      "Creature",
+      "Upgrade"
+    ],
+    "Sideboard": [],
+    "Action": [
+      {
+        "count": 2,
+        "id": "b361d7e2-6873-4890-8f87-702d9c89c5ad"
+      },
+      {
+        "count": 2,
+        "id": "5fbcee22-232c-46ba-84e0-3baad3946220"
+      },
+      {
+        "count": 1,
+        "id": "a0f1146a-6df3-4568-8fb1-d6845615d833"
+      },
+      {
+        "count": 1,
+        "id": "9c613507-63b6-447b-9df5-a72a5d62fdf3"
+      },
+      {
+        "count": 1,
+        "id": "56252b23-94a4-46ac-a566-be6793ecbdfe"
+      },
+      {
+        "count": 2,
+        "id": "1ef96099-4703-4883-9c55-9102e829797a"
+      },
+      {
+        "count": 1,
+        "id": "89b647b4-74b1-4e74-9812-1581e088f32e"
+      },
+      {
+        "count": 1,
+        "id": "1983bc1e-a6e5-4fd4-b620-5e3d691c6851"
+      },
+      {
+        "count": 1,
+        "id": "98fca3bb-b74c-4563-876b-7c9e942e8254"
+      },
+      {
+        "count": 1,
+        "id": "1d17903e-5c7a-4882-833f-707ce03d1228"
+      },
+      {
+        "count": 2,
+        "id": "f04a582c-c50b-453e-afc8-9d459c46cc22"
+      },
+      {
+        "count": 1,
+        "id": "74d1da3a-9d90-43ea-8ead-f7968c4d562d"
+      },
+      {
+        "count": 1,
+        "id": "a1766b1c-dc41-4e1c-975e-111f6b740a6d"
+      },
+      {
+        "count": 1,
+        "id": "afe27535-5cb7-43a1-8eab-ff9a6a472edb"
+      }
+    ],
+    "Artifact": [
+      {
+        "count": 1,
+        "id": "12acf848-7838-4668-a2df-620e67e6d916"
+      },
+      {
+        "count": 1,
+        "id": "22fdfc0f-5ea1-42bd-984a-8c9edd8b16b7"
+      }
+    ],
+    "Creature": [
+      {
+        "count": 1,
+        "id": "29eafbc7-7fc5-4239-b2a7-8bc90df1fc0f"
+      },
+      {
+        "count": 1,
+        "id": "06ab14e9-ec4f-4f2d-908e-20940241590c"
+      },
+      {
+        "count": 1,
+        "id": "e1312fbf-c297-4d9f-b403-2d892271de62"
+      },
+      {
+        "count": 1,
+        "id": "b97236a0-5a0e-437b-b3be-d13834c0dc2d"
+      },
+      {
+        "count": 1,
+        "id": "050b35ae-461a-4630-a8df-a60b2652fc2b"
+      },
+      {
+        "count": 1,
+        "id": "a6a864cf-ac90-4cd2-8d91-7de468c7f66c"
+      },
+      {
+        "count": 2,
+        "id": "d71c36b7-c4be-427a-8038-2033ba9bf07e"
+      },
+      {
+        "count": 1,
+        "id": "116f4590-792e-4d5f-ab06-94dbf7ba85d3"
+      },
+      {
+        "count": 1,
+        "id": "dc6344a9-0486-4926-a820-d99eb2151c7f"
+      },
+      {
+        "count": 1,
+        "id": "78f1a306-5e1d-4155-90d4-a4f0646c5c4c"
+      },
+      {
+        "count": 1,
+        "id": "f0c4cb0f-8e5f-454c-a6ad-35f35ac3c98a"
+      },
+      {
+        "count": 1,
+        "id": "3a3783ea-b5c4-407d-b3c7-0003c562a9aa"
+      },
+      {
+        "count": 1,
+        "id": "05fa104f-3719-41d0-9189-57ff3ec5edc1"
+      }
+    ],
+    "Upgrade": [
+      {
+        "count": 1,
+        "id": "599dca5a-eff6-457c-8cd1-01634090544f"
+      },
+      {
+        "count": 1,
+        "id": "9095c1fe-1783-4b09-9d90-6164234a73aa"
+      }
+    ]
+  }
+},
+{
+  "title": "Anonymous Deck",
+  "id": "7e2bd83f-93f0-4f7d-9690-9710a13f257e",
+  "game": "Keyforge",
+  "format": [
+    "Standard"
+  ],
+  "cardCount": 36,
+  "createdAt": "2025-08-19T08:20:59.190Z",
+  "lastModifiedAt": "2025-08-19T08:32:20.059Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Creature",
+      "Action",
+      "Artifact"
+    ],
+    "Sideboard": [],
+    "Creature": [
+      {
+        "count": 1,
+        "id": "cc632baf-2d62-4a6f-8e09-012d6bcd187a"
+      },
+      {
+        "count": 1,
+        "id": "a01d797d-a284-4f5b-8a7e-9ae5849d4adb"
+      },
+      {
+        "count": 1,
+        "id": "e0dc80fd-32b3-4522-a10e-218b74bfa2b6"
+      },
+      {
+        "count": 1,
+        "id": "801d91f9-abd5-4682-8015-1fafdb1bf0f1"
+      },
+      {
+        "count": 1,
+        "id": "871bd46d-f9aa-4520-98b2-1537bd61b481"
+      },
+      {
+        "count": 1,
+        "id": "2486f634-a2da-4d6d-aca5-4bb6b4bf215c"
+      },
+      {
+        "count": 2,
+        "id": "745d6fdf-86e3-4f1a-8a17-81cb6dd79d89"
+      },
+      {
+        "count": 1,
+        "id": "2ffae549-488b-4949-9bc3-785ea455d1db"
+      },
+      {
+        "count": 1,
+        "id": "5068f1e9-acc1-4214-88e3-755aae3db7b8"
+      },
+      {
+        "count": 1,
+        "id": "307e614f-618d-4b20-bb0b-4ac2f18651e3"
+      },
+      {
+        "count": 1,
+        "id": "3a50b1a5-1f6f-4fd3-aac1-1b46626effcb"
+      },
+      {
+        "count": 1,
+        "id": "9f584ceb-dfff-4a73-842e-0cea012908ee"
+      },
+      {
+        "count": 2,
+        "id": "5978e243-12dc-4ac9-b9c9-a4fbd3bf2fc0"
+      },
+      {
+        "count": 1,
+        "id": "d988a134-ff29-40f7-bac7-3fd49fe525f8"
+      },
+      {
+        "count": 1,
+        "id": "e90d66ba-7f28-4864-889a-4c0c8f3c640b"
+      },
+      {
+        "count": 1,
+        "id": "ba8d348b-5c05-44d1-88f1-3945f9a485d8"
+      },
+      {
+        "count": 1,
+        "id": "0585b303-dfa1-4eef-b7c2-741db6dd4ac9"
+      }
+    ],
+    "Action": [
+      {
+        "count": 1,
+        "id": "d66adb4b-7135-4ae3-b9e7-9d6e3e2ce263"
+      },
+      {
+        "count": 1,
+        "id": "e3c6ece4-27d6-4603-b889-da21e869884b"
+      },
+      {
+        "count": 1,
+        "id": "935386dc-2f80-4d78-ba98-9274c988a239"
+      },
+      {
+        "count": 1,
+        "id": "8b410e37-33f1-45d3-9081-c0a89a3d4982"
+      },
+      {
+        "count": 1,
+        "id": "af3b55ca-5b05-4feb-a8bc-8deebc05ec65"
+      },
+      {
+        "count": 1,
+        "id": "cbb9d137-4e51-4f24-85ff-f228d428329b"
+      },
+      {
+        "count": 1,
+        "id": "21adade2-6357-4094-ac48-b411dfb0432d"
+      },
+      {
+        "count": 1,
+        "id": "9c970e5b-323a-4de6-90c7-5ad1bd4bfddc"
+      },
+      {
+        "count": 1,
+        "id": "46025da0-2dce-4004-94bb-c539da51eb9c"
+      },
+      {
+        "count": 3,
+        "id": "fc829cbd-50d4-486a-9274-77c920d1d6f1"
+      }
+    ],
+    "Artifact": [
+      {
+        "count": 1,
+        "id": "52529c0c-d62b-45db-91b5-7e2a99e47d70"
+      },
+      {
+        "count": 1,
+        "id": "0b68f479-e04c-4ca7-9348-158bea85ceb4"
+      },
+      {
+        "count": 2,
+        "id": "bb650cce-b936-4c60-ade2-28b0950d38b5"
+      },
+      {
+        "count": 1,
+        "id": "7d10c27a-2b28-43ed-87e6-9a62a997304a"
       }
     ]
   }
 }
+
 ]

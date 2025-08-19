@@ -1,44 +1,60 @@
 {
-  "name": "",
-  "menuBackgroundImage": "",
+  "name": "Keyforge",
+  "menuBackgroundImage": "https://keyforging.com/wp-content/uploads/2022/10/Worlds-Collide-Set-Banner.png",
   "defaultRessources": {
-    "backgrounds": [],
+    "backgrounds": [
+      "https://keyforging.com/wp-content/uploads/2022/10/Worlds-Collide-Set-Banner.png",
+      "https://keyforging.com/wp-content/uploads/2022/10/Starter-Set-Banner.png",
+      "https://keyforging.com/wp-content/uploads/2022/10/MM-Set-Banner.png"
+    ],
     "decksUrl": ""
   },
-  "customHelp": "",
+  "customHelp": "Use first counter for Æmber, second for forged keys",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "",
-    "cardBack": ""
+    "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList.json",
+    "cardBack": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/cardBackplaceholder.png"
   },
   "deckBuilding": {
-    "mainFilters": [],
-    "formats": []
+    "mainFilters": [
+      "houses",
+      "type"
+    ],
+    "formats": [
+      {
+        "title": "Standard",
+        "gameplay": "Archon",
+        "customCategories": []
+      }
+    ]
   },
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "",
-        "startingHandSize": 7,
+        "info": "-1 card per mulligan",
+        "startingHandSize": "6",
         "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
       "newTurn": {
-        "drawOnStart": false,
+        "drawOnStart": true,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": 1
+        "drawPerTurn": "0"
       },
       "defaultNotes": "",
       "tokens": [],
       "countersStartingValues": [
+        0,
         0
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Mana"
+          "Battleline",
+          "Archive",
+          "Artifacts"
         ],
         "layout": {
           "direction": "column",
@@ -62,13 +78,7 @@
                 {
                   "section": "Archive",
                   "style": {
-                    "width": "12vh"
-                  }
-                },
-                {
-                  "section": "Archon Identity",
-                  "style": {
-                    "width": "12vh"
+                    "width": "20vh"
                   }
                 },
                 {
@@ -81,24 +91,64 @@
           ]
         },
         "categoriesAlreadyOnBoard": [],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
+        "autoPlayFromHand": {
+          "Creature": "Battleline",
+          "Action": "Pile",
+          "Upgrade": "Pile",
+          "Artifact": "Artifact",
+          "TokenCreature": "Battleline"
+        },
+        "autoPlayFromStack": {
+          "Action": "Discard"
+        },
         "sectionsDict": {
-          "Mana": {
-            "title": "Mana",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "START",
+          "Battleline": {
+            "title": "Battleline",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Ressources",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Battleline",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Archive": {
+            "title": "Archive",
+            "isHidden": "opponent-only",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Archive",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": true,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Artifacts": {
+            "title": "Artifacts",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Artifacts",
+            "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
           }
         }
       }

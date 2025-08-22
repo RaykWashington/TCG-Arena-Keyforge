@@ -41546,5 +41546,22 @@
     "house": "Untamed",
     "expansion": "aoa",
     "rarity": "Rare"
+  },
+  "indicadorDeCorrentes": {
+    "id": "indicadorDeCorrentes",
+    "face": {
+      "front": {
+        "name": "Indicador de Correntes",
+        "type": "Indicador",
+        "cost": 0,
+        "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/chainCard.png"
+      }
+    },
+    "name": "Indicador de Correntes",
+    "type": "Indicador",
+    "cost": 0,
+    "house": " ",
+    "expansion": " ",
+    "rarity": " "
   }
 }

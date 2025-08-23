@@ -81,7 +81,8 @@
         "customSections": [
           "Battleline",
           "Archive",
-          "Artifacts"
+          "Artifacts",
+          "Chain Tracker"
         ],
         "layout": {
           "direction": "column",

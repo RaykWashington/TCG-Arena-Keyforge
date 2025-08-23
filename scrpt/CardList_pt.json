@@ -41563,6 +41563,7 @@
     "cost": 0,
     "house": " ",
     "expansion": " ",
-    "rarity": "Token"
+    "rarity": "Token",
+    "isToken": true
   }
 }

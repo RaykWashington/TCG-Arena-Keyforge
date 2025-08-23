@@ -41547,18 +41547,19 @@
     "expansion": "aoa",
     "rarity": "Rare"
   },
-  "indicadorDeCorrentes": {
-    "id": "indicadorDeCorrentes",
+  "chainTracker": {
+    "id": "chainTracker",
     "face": {
       "front": {
         "name": "Indicador de Correntes",
-        "type": "Indicador",
+        "type": "Chain Tracker",
         "cost": 0,
-        "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/chainCard.png"
+        "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/chainCard.png",
+        "isHorizontal": true
       }
     },
     "name": "Indicador de Correntes",
-    "type": "Indicador",
+    "type": "Chain Tracker",
     "cost": 0,
     "house": " ",
     "expansion": " ",

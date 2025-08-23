@@ -5,7 +5,9 @@
     "backgrounds": [
       "https://keyforging.com/wp-content/uploads/2022/10/Worlds-Collide-Set-Banner.png",
       "https://keyforging.com/wp-content/uploads/2022/10/Starter-Set-Banner.png",
-      "https://keyforging.com/wp-content/uploads/2022/10/MM-Set-Banner.png"
+      "https://keyforging.com/wp-content/uploads/2022/10/MM-Set-Banner.png",
+      "https://keyforging.com/wp-content/uploads/2022/10/AoA-Set-Banner.png",
+      "https://keyforging.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-28-at-2.05.43-PM-scaled-e1663788870586.jpg"
     ],
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList.json"
   },
@@ -107,6 +109,12 @@
                   }
                 },
                 {
+                  "section": "Chain Tracker",
+                  "style": {
+                    "width": "20vh"
+                  }
+                },
+                {
                   "section": "Artifacts",
                   "style": false
                 }
@@ -115,7 +123,9 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [],
+        "categoriesAlreadyOnBoard": [
+          "Chain Tracker"
+        ],
         "autoPlayFromHand": {
           "Creature": "Battleline",
           "Action": "Stack",
@@ -293,6 +303,22 @@
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Chain Tracker": {
+            "title": "Chain Tracker",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Indicador de Correntes",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
         }

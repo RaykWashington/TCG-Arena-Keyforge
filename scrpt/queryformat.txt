@@ -1,5 +1,5 @@
 map({
-id: .card_number,
+id: .houses.0.id,
 face:{
   front:{
     name: .card_title,
@@ -12,7 +12,7 @@ face:{
   type: .card_type,
   house: .houses.0.house,
   cost: 0,
-  set: .set,
-  rarity: .rarity
-
-})|keyBy(string(.card_number))
+  expansion: .set,
+  rarity: .rarity,
+  isToken :  if(.card_type == "Token Creature", true , false)
+  })|keyBy(string(.id))

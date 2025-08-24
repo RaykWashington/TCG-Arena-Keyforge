@@ -28,7 +28,7 @@ search_string = """
 
 mapped = jmespath.search(search_string, card_data)
 indexed = {str(item['id']): item for item in mapped} # cria um dict usando id como chave pra cada carta (TCG-Arena exige uma id única)
-print(indexed)
+#print(indexed)
 
 with open(script_path / formated_file, "w", encoding="utf-8") as file:
         json.dump(indexed, file, ensure_ascii=False, indent=4)

@@ -7,7 +7,13 @@
       "https://keyforging.com/wp-content/uploads/2022/10/Starter-Set-Banner.png",
       "https://keyforging.com/wp-content/uploads/2022/10/MM-Set-Banner.png",
       "https://keyforging.com/wp-content/uploads/2022/10/AoA-Set-Banner.png",
-      "https://keyforging.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-28-at-2.05.43-PM-scaled-e1663788870586.jpg"
+      "https://keyforging.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-28-at-2.05.43-PM-scaled-e1663788870586.jpg",
+      "https://keyforging.com/wp-content/uploads/2023/05/ssss-scaled.jpg",
+      "https://keyforging.com/wp-content/uploads/2024/05/Screenshot-2024-05-09-at-10.24.46%E2%80%AFAM.png",
+      "https://keyforging.com/wp-content/uploads/2025/07/PV-Header-scaled.png",
+      "https://keyforging.com/wp-content/uploads/2024/05/Screenshot-2024-11-09-at-8.16.21%E2%80%AFPM.png",
+      "https://keyforging.com/wp-content/uploads/2024/05/skypirates.png"
+
     ],
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList.json"
   },
@@ -26,7 +32,7 @@
     ],
     "formats": [
       {
-        "title": "Standard",
+        "title": "Arconte",
         "gameplay": "Standard",
         "customCategories": [
           "house 1",

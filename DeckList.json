@@ -448,30 +448,97 @@
   }
 },
 {
-  "title": "Anonymous Deck",
-  "id": "7e2bd83f-93f0-4f7d-9690-9710a13f257e",
+  "title": "Chico “Abutre”, Ladrão da Praia",
+  "id": "fde7d423-63ab-4af2-9cb2-766793629ea7",
   "game": "Keyforge",
   "format": [
     "Standard"
   ],
   "cardCount": 36,
-  "createdAt": "2025-08-19T08:20:59.190Z",
-  "lastModifiedAt": "2025-08-19T08:32:20.059Z",
+  "createdAt": "2025-08-30T05:21:32.972Z",
+  "lastModifiedAt": "2025-08-30T05:50:39.553Z",
   "deckList": {
     "categoriesOrder": [
-      "Creature",
       "Action",
+      "Creature",
+      "Upgrade",
       "Artifact"
     ],
     "Sideboard": [],
-    "Creature": [
+    "Action": [
       {
         "count": 1,
-        "id": "cc632baf-2d62-4a6f-8e09-012d6bcd187a"
+        "id": "7ffcb71d-82bc-411d-8a50-12181c8b8a2f"
       },
       {
         "count": 1,
-        "id": "a01d797d-a284-4f5b-8a7e-9ae5849d4adb"
+        "id": "a6c64020-537e-41b4-a163-a9ce67327de4"
+      },
+      {
+        "count": 1,
+        "id": "67e81873-d126-4e97-a9b6-b0ad4368f1c3"
+      },
+      {
+        "count": 1,
+        "id": "45f30871-671d-4d29-a095-11c9d26c1ff2"
+      },
+      {
+        "count": 1,
+        "id": "68e2188c-4002-43d4-9fe1-0262df26c33f"
+      },
+      {
+        "count": 1,
+        "id": "0cdeb7ca-3071-472f-829c-6dc6ec0824b2"
+      },
+      {
+        "count": 1,
+        "id": "171a9d91-0107-4f68-a0b2-6363b08d26d6"
+      },
+      {
+        "count": 1,
+        "id": "5337c7fa-8c2e-40a6-ba6a-f59bce7c5bd4"
+      },
+      {
+        "count": 1,
+        "id": "acdce986-9819-4793-8546-ba37cbc8158b"
+      },
+      {
+        "count": 1,
+        "id": "325209e4-246e-443c-b974-8592fb393a7e"
+      },
+      {
+        "count": 1,
+        "id": "5ad003a2-8572-4fbd-b9fb-a2e94e4bdc7c"
+      }
+    ],
+    "Creature": [
+      {
+        "count": 1,
+        "id": "801d91f9-abd5-4682-8015-1fafdb1bf0f1"
+      },
+      {
+        "count": 1,
+        "id": "a0352d9d-3721-40e3-98c4-f88993f39962"
+      },
+      {
+        "count": 1,
+        "id": "f54edc11-fa5f-4b2c-8e92-eec6222b9472"
+      },
+      {
+        "count": 1,
+        "id": "ffe941f1-b3ba-4076-9923-ffa3777ae374"
+      },
+      {
+        "count": 1,
+        "id": "44396c14-4325-4138-a1bb-adbb7e0f7bb6"
+      },
+      {
+        "count": 1,
+        "id": "ea99d836-aee5-4cb1-a7e3-1c708dbed478"
+      },
+      {
+        "count": 1,
+        "id": "8823389f-8d22-4335-aa36-9c99a1946d9f"
       },
       {
         "count": 1,
@@ -479,122 +546,65 @@
       },
       {
         "count": 1,
-        "id": "801d91f9-abd5-4682-8015-1fafdb1bf0f1"
+        "id": "cebbdb5d-d690-49c2-bdba-ddbe50d12196"
       },
       {
         "count": 1,
-        "id": "871bd46d-f9aa-4520-98b2-1537bd61b481"
+        "id": "8b1a14de-ada1-4181-9354-fe1499c580dc"
       },
       {
         "count": 1,
-        "id": "2486f634-a2da-4d6d-aca5-4bb6b4bf215c"
+        "id": "6c93d4ea-3974-41ed-bcf8-9bfb4f8730bb"
       },
       {
         "count": 2,
-        "id": "745d6fdf-86e3-4f1a-8a17-81cb6dd79d89"
+        "id": "dc131022-2be2-460c-888e-e6fd65f9f6b7"
       },
       {
         "count": 1,
-        "id": "2ffae549-488b-4949-9bc3-785ea455d1db"
-      },
-      {
-        "count": 1,
-        "id": "5068f1e9-acc1-4214-88e3-755aae3db7b8"
-      },
-      {
-        "count": 1,
-        "id": "307e614f-618d-4b20-bb0b-4ac2f18651e3"
-      },
-      {
-        "count": 1,
-        "id": "3a50b1a5-1f6f-4fd3-aac1-1b46626effcb"
-      },
-      {
-        "count": 1,
-        "id": "9f584ceb-dfff-4a73-842e-0cea012908ee"
+        "id": "68f892f4-4d3c-481f-8466-789932d2fb7f"
       },
       {
         "count": 2,
-        "id": "5978e243-12dc-4ac9-b9c9-a4fbd3bf2fc0"
+        "id": "b6ad6245-47c8-4dd3-a14a-dc5584aad98c"
       },
       {
         "count": 1,
-        "id": "d988a134-ff29-40f7-bac7-3fd49fe525f8"
+        "id": "ed4c315b-3938-4f33-af57-d935eddc299f"
       },
       {
         "count": 1,
-        "id": "e90d66ba-7f28-4864-889a-4c0c8f3c640b"
+        "id": "c62cd05f-a0d1-42b7-b084-c9e32e078da0"
       },
       {
         "count": 1,
-        "id": "ba8d348b-5c05-44d1-88f1-3945f9a485d8"
+        "id": "56488f38-253d-46f6-9a29-fa9dd674da4d"
       },
       {
         "count": 1,
-        "id": "0585b303-dfa1-4eef-b7c2-741db6dd4ac9"
+        "id": "501c6132-8497-42bf-a1e8-635eee0c8ee1"
+      },
+      {
+        "count": 2,
+        "id": "b9b9d692-1d3c-42ed-addd-466c531878a9"
+      },
+      {
+        "count": 1,
+        "id": "d7d5980b-fb6f-4f59-858f-81d41c088590"
       }
     ],
-    "Action": [
+    "Upgrade": [
       {
         "count": 1,
-        "id": "d66adb4b-7135-4ae3-b9e7-9d6e3e2ce263"
-      },
-      {
-        "count": 1,
-        "id": "e3c6ece4-27d6-4603-b889-da21e869884b"
-      },
-      {
-        "count": 1,
-        "id": "935386dc-2f80-4d78-ba98-9274c988a239"
-      },
-      {
-        "count": 1,
-        "id": "8b410e37-33f1-45d3-9081-c0a89a3d4982"
-      },
-      {
-        "count": 1,
-        "id": "af3b55ca-5b05-4feb-a8bc-8deebc05ec65"
-      },
-      {
-        "count": 1,
-        "id": "cbb9d137-4e51-4f24-85ff-f228d428329b"
-      },
-      {
-        "count": 1,
-        "id": "21adade2-6357-4094-ac48-b411dfb0432d"
-      },
-      {
-        "count": 1,
-        "id": "9c970e5b-323a-4de6-90c7-5ad1bd4bfddc"
-      },
-      {
-        "count": 1,
-        "id": "46025da0-2dce-4004-94bb-c539da51eb9c"
-      },
-      {
-        "count": 3,
-        "id": "fc829cbd-50d4-486a-9274-77c920d1d6f1"
+        "id": "d590cc84-b855-4efe-9350-08ee926b134c"
       }
     ],
     "Artifact": [
       {
         "count": 1,
-        "id": "52529c0c-d62b-45db-91b5-7e2a99e47d70"
-      },
-      {
-        "count": 1,
-        "id": "0b68f479-e04c-4ca7-9348-158bea85ceb4"
-      },
-      {
-        "count": 2,
-        "id": "bb650cce-b936-4c60-ade2-28b0950d38b5"
-      },
-      {
-        "count": 1,
-        "id": "7d10c27a-2b28-43ed-87e6-9a62a997304a"
+        "id": "f3b2d940-462c-43a5-ba45-9c74f8bebe4d"
       }
     ]
   }
 }
-
 ]

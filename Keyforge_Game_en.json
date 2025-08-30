@@ -15,7 +15,7 @@
       "https://keyforging.com/wp-content/uploads/2024/05/skypirates.png"
 
     ],
-    "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList.json"
+    "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList_en.json"
   },
   "customHelp": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel",
   "cardRotation": 45,

@@ -24,6 +24,7 @@ search_string = """
     house: houses[0],
     cost: '0',
     expansion: expansions[0].expansion,
+    rarity: expansions[0].rarity,
     isToken : token
     }""" #cria tokens
 

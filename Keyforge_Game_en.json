@@ -7,14 +7,20 @@
       "https://keyforging.com/wp-content/uploads/2022/10/Starter-Set-Banner.png",
       "https://keyforging.com/wp-content/uploads/2022/10/MM-Set-Banner.png",
       "https://keyforging.com/wp-content/uploads/2022/10/AoA-Set-Banner.png",
-      "https://keyforging.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-28-at-2.05.43-PM-scaled-e1663788870586.jpg"
+      "https://keyforging.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-28-at-2.05.43-PM-scaled-e1663788870586.jpg",
+      "https://keyforging.com/wp-content/uploads/2023/05/ssss-scaled.jpg",
+      "https://keyforging.com/wp-content/uploads/2024/05/Screenshot-2024-05-09-at-10.24.46%E2%80%AFAM.png",
+      "https://keyforging.com/wp-content/uploads/2025/07/PV-Header-scaled.png",
+      "https://keyforging.com/wp-content/uploads/2024/05/Screenshot-2024-11-09-at-8.16.21%E2%80%AFPM.png",
+      "https://keyforging.com/wp-content/uploads/2024/05/skypirates.png"
+
     ],
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList.json"
   },
-  "customHelp": "Use first counter for AEmber, second for forged keys",
+  "customHelp": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_pt.json",
+    "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_en.json",
     "cardBack": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/cardBackplaceholder.png"
   },
   "deckBuilding": {
@@ -28,6 +34,15 @@
       {
         "title": "Standard",
         "gameplay": "Standard",
+        "customCategories": [
+          "house 1",
+          "house 2",
+          "house 3"
+        ]
+      },
+      {
+        "title": "Vault Assault",
+        "gameplay": "Vault Assault",
         "customCategories": [
           "house 1",
           "house 2",
@@ -54,19 +69,19 @@
       "defaultNotes": "Use os contadores para AEmber e chaves forjadas. Indicador de Correntes pode ser adicionado pelo menu de Tokens",
       "tokens": [
         {
-          "name": "Chave Vermelha",
+          "name": "Red Key",
           "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyR.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
         },
         {
-          "name": "Chave Azul",
+          "name": "Blue Key",
           "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyB.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
         },
         {
-          "name": "Chave Amarela",
+          "name": "Yellow Key",
           "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyY.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
@@ -326,6 +341,314 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          }
+        }
+      }
+    },
+    "Vault Assault": {
+      "mulligan": {
+        "info": "-1 card per mulligan",
+        "startingHandSize": "6",
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": true,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": "0"
+      },
+      "defaultNotes": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel",
+      "tokens": [
+        {
+          "name": "Red Key",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyR.png",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "Blue Key",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyB.png",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "Yellow Key",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyY.png",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        }
+      ],
+      "countersStartingValues": [
+        0,
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Battleline",
+          "Archive",
+          "Artifacts",
+          "Chain Tracker",
+          "Boon"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Battleline",
+                  "style": false
+                },
+                {
+                  "section": "Boon",
+                  "style": {
+                    "width": "16vh"
+                  }
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Archive",
+                  "style": {
+                    "width": "20vh"
+                  }
+                },
+                {
+                  "section": "Chain Tracker",
+                  "style": {
+                    "width": "20vh"
+                  }
+                },
+                {
+                  "section": "Artifacts",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Chain Tracker"
+        ],
+        "autoPlayFromHand": {
+          "Creature": "Battleline",
+          "Action": "Stack",
+          "Upgrade": "Stack",
+          "Artifact": "Artifacts",
+          "Token Creature": "Battleline",
+          "The Tide": "Stack",
+          "Location": "Artifacts",
+          "Seal": "Stack"
+        },
+        "autoPlayFromStack": {
+          "Action": "Discard",
+          "Token Creature": "Battleline",
+          "Chain Tracker": "Chain Tracker",
+          "Boon": "Boon"
+        },
+        "sectionsDict": {
+          "Hand": {
+            "isDefaultSection": true,
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "autoPayFrom": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Deck": {
+            "isDefaultSection": true,
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Pile",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Exile": {
+            "isDefaultSection": true,
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ExileHidden": {
+            "isDefaultSection": true,
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Sideboard": {
+            "isDefaultSection": true,
+            "title": "Sideboard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Battleline": {
+            "title": "Battleline",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Linha de Batalha",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Archive": {
+            "title": "Archive",
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "noQuickActions": false,
+            "displayedTitle": "Arquivo",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Artifacts": {
+            "title": "Artifacts",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Artefatos",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Chain Tracker": {
+            "title": "Chain Tracker",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Indicador de Correntes",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Boon": {
+            "title": "Boon",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Boon"
           }
         }
       }

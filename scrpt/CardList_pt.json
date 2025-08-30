@@ -44261,5 +44261,124 @@
     "expansion": " ",
     "rarity": "Token",
     "isToken": true
+  },
+  "First Player": {
+    "id": "First Player",
+    "face": {
+      "front": {
+        "name": "First Player",
+        "type": "Boon",
+        "cost": 0,
+        "image": "https://archonarcana.com/images/1/10/Vault_Assault_First_Player.jpg"
+      }
+    },
+    "name": "First Player",
+    "type": "Boon",
+    "cost": 0,
+    "house": " ",
+    "expansion": " ",
+    "isToken": true
+  },
+  "Security": {
+    "id": "Security",
+    "face": {
+      "front": {
+        "name": "Security",
+        "type": "Boon",
+        "cost": 0,
+        "image": "https://archonarcana.com/images/9/9a/Vault_Assault_Security.jpg"
+      }
+    },
+    "name": "Security",
+    "type": "Boon",
+    "cost": 0,
+    "house": " ",
+    "expansion": " ",
+    "isToken": true
+  },
+  "Expertise": {
+    "id": "Expertise",
+    "face": {
+      "front": {
+        "name": "Expertise",
+        "type": "Boon",
+        "cost": 0,
+        "image": "https://archonarcana.com/images/9/93/Vault_Assault_Expertise.jpg"
+      }
+    },
+    "name": "Expertise",
+    "type": "Boon",
+    "cost": 0,
+    "house": " ",
+    "expansion": " ",
+    "isToken": true
+  },
+  "Destruction": {
+    "id": "Destruction",
+    "face": {
+      "front": {
+        "name": "Destruction",
+        "type": "Boon",
+        "cost": 0,
+        "image": "https://archonarcana.com/images/1/1c/Vault_Assault_Destruction.jpg"
+      }
+    },
+    "name": "Destruction",
+    "type": "Boon",
+    "cost": 0,
+    "house": " ",
+    "expansion": " ",
+    "isToken": true
+  },
+  "Authority": {
+    "id": "Authority",
+    "face": {
+      "front": {
+        "name": "Authority",
+        "type": "Boon",
+        "cost": 0,
+        "image": "https://archonarcana.com/images/1/1c/Vault_Assault_Authority.jpg"
+      }
+    },
+    "name": "Authority",
+    "type": "Boon",
+    "cost": 0,
+    "house": " ",
+    "expansion": " ",
+    "isToken": true
+  },
+  "Proliferation": {
+    "id": "Proliferation",
+    "face": {
+      "front": {
+        "name": "Proliferation",
+        "type": "Boon",
+        "cost": 0,
+        "image": "https://archonarcana.com/images/6/6b/Vault_Assault_Proliferation.jpg"
+      }
+    },
+    "name": "Proliferation",
+    "type": "Boon",
+    "cost": 0,
+    "house": " ",
+    "expansion": " ",
+    "isToken": true
+  },
+  "Stratagem": {
+    "id": "Stratagem",
+    "face": {
+      "front": {
+        "name": "Stratagem",
+        "type": "Boon",
+        "cost": 0,
+        "image": "https://archonarcana.com/images/2/2b/Vault_Assault_Stratagem.jpg"
+      }
+    },
+    "name": "Stratagem",
+    "type": "Boon",
+    "cost": 0,
+    "house": " ",
+    "expansion": " ",
+    "isToken": true
   }
 }

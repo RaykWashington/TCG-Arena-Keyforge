@@ -3,27 +3,29 @@ import json
 from pathlib import Path
 
 script_path = Path(__file__).resolve().parent
-data_file = 'card_data_pt.json'
-formated_file = 'keyforge_card_list_pt.json'
+data_file = 'card_data_en.json'
+formated_file = 'keyforge_card_list_en.json'
 
 with open(script_path / data_file, encoding="utf-8") as file:
     card_data = json.load(file)
 
 search_string = """
-    [].{id : houses[0].id,
+    [].{id : extraCardInfo.id,
     face:{
         front:{
-            name: card_title, 
-            type: card_type, 
+            name: cardTitle, 
+            type: cardType, 
             cost: '0', 
-            image: houses[0].normal
+            image: cardTitleUrl
             }
         }, 
-    name: card_title,
-    type: card_type, 
-    house: houses[0].house,
-    cost: '0', expansion: set,
-    isToken : card_type == 'Token Creature' }""" #cria tokens
+    name: cardTitle,
+    type: cardType, 
+    house: houses[0],
+    cost: '0',
+    expansion: expansions[0].expansion,
+    isToken : token
+    }""" #cria tokens
 
 mapped = jmespath.search(search_string, card_data)
 indexed = {str(item['id']): item for item in mapped} # cria um dict usando id como chave pra cada carta (TCG-Arena exige uma id única)
@@ -32,4 +34,4 @@ indexed = {str(item['id']): item for item in mapped} # cria um dict usando id co
 with open(script_path / formated_file, "w", encoding="utf-8") as file:
         json.dump(indexed, file, ensure_ascii=False, indent=4)
 
-print("Arquivo JSON salvo com sucesso!")
+print("Json file created")

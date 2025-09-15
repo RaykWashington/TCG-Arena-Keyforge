@@ -18,7 +18,7 @@
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList.json"
   },
   "customHelp": "Use os contadores para AEmber e chaves forjadas. Indicador de Correntes pode ser adicionado pelo menu de Tokens",
-  "cardRotation": 45,
+  "cardRotation": 90,
   "cards": {
     "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_pt.json",
     "cardBack": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/cardBackplaceholder.png"
@@ -304,7 +304,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "enterTapped": false,
+            "enterTapped": true,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,

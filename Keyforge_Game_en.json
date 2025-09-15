@@ -18,7 +18,7 @@
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList_en.json"
   },
   "customHelp": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel",
-  "cardRotation": 45,
+  "cardRotation": 90,
   "cards": {
     "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_en.json",
     "cardBack": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/cardBackplaceholder.png"

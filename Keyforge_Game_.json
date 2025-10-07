@@ -23,6 +23,53 @@
     "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_pt.json",
     "cardBack": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/cardBackplaceholder.png"
   },
+  "draggableTokens": [
+              {
+                  "id": "stun",
+                  "name": "Stun",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/stun.png"
+              },
+              {
+                  "id": "enrage",
+                  "name": "Enrage",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/enrage.png"
+              },
+              {
+                  "id": "generic",
+                  "name": "Generic",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/generic.png"
+              },
+              {
+                  "id": "aember",
+                  "name": "Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+              },
+              {
+                  "id": "1power",
+                  "name": "+1 Power",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/1power.png"
+              },
+              {
+                  "id": "ward",
+                  "name": "Ward",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/ward.png"
+              },
+              {
+                  "id": "dmg1",
+                  "name": "1 Damage",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg1.png"
+              },
+              {
+                  "id": "dmg3",
+                  "name": "3 Damage",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg3.png"
+              },
+              {
+                  "id": "dmg5",
+                  "name": "5 Damage",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg5.png"
+              }
+          ],
   "deckBuilding": {
     "mainFilters": [
       "house",

@@ -29,9 +29,10 @@ search_string = """
     }""" #cria tokens
 
 mapped = jmespath.search(search_string, card_data)
+filtered = jmespath.search("[?expansion != 'CALL_OF_THE_ARCONS']", mapped)
 indexed = {str(item['id']): item for item in mapped} # cria um dict usando id como chave pra cada carta (TCG-Arena exige uma id única)
-#print(indexed)
 
+print (filtered)
 with open(script_path / formated_file, "w", encoding="utf-8") as file:
         json.dump(indexed, file, ensure_ascii=False, indent=4)
 

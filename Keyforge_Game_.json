@@ -96,11 +96,6 @@
                   "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/generic.png"
               },
               {
-                  "id": "aember",
-                  "name": "Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
-              },
-              {
                   "id": "1power",
                   "name": "+1 Power",
                   "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/1power.png"
@@ -124,6 +119,36 @@
                   "id": "dmg5",
                   "name": "5 Damage",
                   "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg5.png"
+              },
+              {
+                  "id": "aember1",
+                  "name": "Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+              },
+              {
+                  "id": "aember2",
+                  "name": "Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+              },
+              {
+                  "id": "aember3",
+                  "name": "Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+              },
+              {
+                  "id": "aember4",
+                  "name": "Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+              },
+              {
+                  "id": "aember5",
+                  "name": "Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+              },
+              {
+                  "id": "aember6",
+                  "name": "Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
               }
       ],
       "countersStartingValues": [

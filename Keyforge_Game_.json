@@ -1,5 +1,5 @@
 {
-  "name": "Keyforge",
+  "name": "Keyforge (pt-br)",
   "menuBackgroundImage": "https://keyforging.com/wp-content/uploads/2022/10/Worlds-Collide-Set-Banner.png",
   "defaultRessources": {
     "backgrounds": [
@@ -17,7 +17,7 @@
     ],
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList.json"
   },
-  "customHelp": "Use os contadores para AEmber e chaves forjadas. Indicador de Correntes pode ser adicionado pelo menu de Tokens",
+  "customHelp": "Use os contadores para AEmber e chaves forjadas. Indicador de Correntes pode ser adicionado pelo menu de Tokens. Ferramenta para decklist: https://raykwas.pyscriptapps.com/keyforge-deck-list-generator/latest/",
   "cardRotation": 90,
   "cards": {
     "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_pt.json",
@@ -94,11 +94,6 @@
                   "id": "generic",
                   "name": "Generic",
                   "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/generic.png"
-              },
-              {
-                  "id": "1power",
-                  "name": "+1 Power",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/1power.png"
               },
               {
                   "id": "ward",

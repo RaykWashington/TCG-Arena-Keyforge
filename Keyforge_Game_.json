@@ -77,6 +77,12 @@
           "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyY.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "Maré Alta",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/hightide.png",
+          "isUnique": true,
+          "leavesAtEndOfTurn": false
         }
       ],
       "draggableTokens": [

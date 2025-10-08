@@ -17,7 +17,7 @@
     ],
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList_en.json"
   },
-  "customHelp": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel",
+  "customHelp": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel. Decklist tool: https://raykwas.pyscriptapps.com/keyforge-deck-list-generator/latest/",
   "cardRotation": 90,
   "cards": {
     "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_en.json",
@@ -45,7 +45,7 @@
   "gameplay": {
     "Standard": {
       "mulligan": {
-        "info": "-1 carta por mulligan",
+        "info": "-1 per mulligan",
         "startingHandSize": "6",
         "drawNewHand": true,
         "putSelectionAtBottom": false,
@@ -76,6 +76,12 @@
           "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyY.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "High Tide",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/hightide.png",
+          "isUnique": true,
+          "leavesAtEndOfTurn": false
         }
       ], "draggableTokens": [
               {
@@ -92,11 +98,6 @@
                   "id": "generic",
                   "name": "Generic",
                   "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/generic.png"
-              },
-              {
-                  "id": "1power",
-                  "name": "+1 Power",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/1power.png"
               },
               {
                   "id": "ward",
@@ -348,7 +349,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Linha de Batalha",
+            "displayedTitle": "Battleline",
             "noQuickActions": false,
             "enterTapped": true,
             "enterSpun": false,
@@ -362,7 +363,7 @@
             "height": "MEDIUM",
             "alignment": "CENTER",
             "noQuickActions": false,
-            "displayedTitle": "Arquivo",
+            "displayedTitle": "Archive",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
@@ -380,7 +381,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Artefatos",
+            "displayedTitle": "Artifacts",
             "noQuickActions": false,
             "enterTapped": true,
             "enterSpun": false,
@@ -396,7 +397,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Indicador de Correntes",
+            "displayedTitle": "Chain Tracker",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,

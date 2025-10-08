@@ -111,6 +111,11 @@
                   "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg1.png"
               },
               {
+                  "id": "dmg2",
+                  "name": "2 Damage",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg2.png"
+              },
+              {
                   "id": "dmg3",
                   "name": "3 Damage",
                   "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg3.png"
@@ -122,33 +127,28 @@
               },
               {
                   "id": "aember1",
-                  "name": "Aember",
+                  "name": "1 Aember",
                   "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
               },
               {
                   "id": "aember2",
-                  "name": "Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+                  "name": "2 Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember2.png"
               },
               {
                   "id": "aember3",
-                  "name": "Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
-              },
-              {
-                  "id": "aember4",
-                  "name": "Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+                  "name": "3 Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember3.png"
               },
               {
                   "id": "aember5",
-                  "name": "Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+                  "name": "5 Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember5.png"
               },
               {
-                  "id": "aember6",
-                  "name": "Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+                  "id": "aember10",
+                  "name": "10 Aember",
+                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember10.png"
               }
       ],
       "countersStartingValues": [

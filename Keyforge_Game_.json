@@ -363,17 +363,10 @@
             "title": "Archive",
             "isHidden": "opponent-only",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "DECK",
             "noQuickActions": false,
-            "displayedTitle": "Arquivo",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
+            "displayedTitle": "Arquivo"
+          
           },
           "Artifacts": {
             "title": "Artifacts",

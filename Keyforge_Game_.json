@@ -18,7 +18,7 @@
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList.json"
   },
   "customHelp": "Use os contadores para AEmber e chaves forjadas. Indicador de Correntes pode ser adicionado pelo menu de Tokens. Ferramenta para decklist: https://raykwas.pyscriptapps.com/keyforge-deck-list-generator/latest/",
-  "cardRotation": 90,
+  "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_pt.json",
     "cardBack": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/cardBackplaceholder.png"

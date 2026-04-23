@@ -190,14 +190,15 @@
                   }
                 },
                 {
+                  "section": "Artifacts",
+                  "style": false
+                },
+                {
                   "section": "Chain Tracker",
+                  "optional" : {"key" : "Correntes"},
                   "style": {
                     "width": "20vh"
                   }
-                },
-                {
-                  "section": "Artifacts",
-                  "style": false
                 }
               ],
               "isSymetricalForOpponents": false
@@ -387,7 +388,7 @@
           "Chain Tracker": {
             "title": "Chain Tracker",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,

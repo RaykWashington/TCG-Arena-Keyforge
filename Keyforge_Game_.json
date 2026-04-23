@@ -153,7 +153,6 @@
               }
       ],
       "countersStartingValues": [
-        0,
         0
       ],
       "hideFacedDownCards": false,
@@ -373,7 +372,7 @@
             "title": "Artifacts",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
